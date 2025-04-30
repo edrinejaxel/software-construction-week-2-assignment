@@ -1,5 +1,5 @@
-from .domain.entities.account import Account
-from .domain.entitites.transaction import Transaction, TransactionType
+from ..entities.account import Account
+from ..entities.transaction import Transaction, TransactionType
 
 class TransferException(Exception):
     pass

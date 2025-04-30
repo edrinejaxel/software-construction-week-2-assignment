@@ -1,4 +1,4 @@
-from.domain.entities.transaction import Transaction
+from ..entities.transaction import Transaction
 
 class TransactionService:
     def __init__(self):
@@ -11,7 +11,7 @@ class TransactionService:
 
     def save(self, transaction):
         self.transactions[transaction.transaction_id] = transaction
-from .transaction import Transaction
+from ..entities.transaction import Transaction
 
 class TransactionService:
     def __init__(self):

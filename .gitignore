@@ -51,4 +51,6 @@ logs/
 # System Files
 .DS_Store
 Thumbs.db
-*.txt
+
+#custom files
+to do.txt
